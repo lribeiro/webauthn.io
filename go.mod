@@ -1,6 +1,8 @@
 module github.com/duo-labs/webauthn.io
 
-go 1.12
+go 1.13
+
+replace github.com/duo-labs/webauthn v0.0.0-20220330035159-03696f3d4499 => github.com/lribeiro/webauthn v0.0.0-20220413142431-55cc148964c6
 
 require (
 	github.com/duo-labs/webauthn v0.0.0-20220330035159-03696f3d4499
